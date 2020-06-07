@@ -1,0 +1,160 @@
+/*------------- Main -------------------*/
+.about {
+  height: auto;
+}
+p {
+  font-family: "Logoplexi";
+}
+main {
+  overflow: hidden;
+  z-index: 3;
+  background-color: black;
+}
+
+main section {
+  padding: 90px 0;
+  width: 70%;
+  align-items: center;
+  grid-template-columns: 2fr 3fr;
+  margin: 30px auto 150px auto;
+}
+
+main section h2 {
+  text-align: center;
+  font-size: 4.3rem;
+  line-height: 4.2rem;
+  padding-right: 10px;
+  text-transform: uppercase;
+  font-family: "Logoplexi";
+  color: #ffffff;
+  text-shadow: 1px 3px 0 #bf9e32, 1px 13px 5px #aba8a8;
+  color: #ffffff;
+}
+
+span h2 {
+  text-align: center;
+  font-size: 4.3rem;
+  line-height: 4.2rem;
+  padding-right: 10px;
+  text-transform: uppercase;
+  font-family: "Logoplexi";
+  color: #ffffff;
+  text-shadow: 1px 3px 0 #bf9e32, 1px 13px 5px #aba8a8;
+  color: #ffffff;
+}
+
+main section div {
+  position: relative;
+}
+
+main section div p {
+  padding-left: 0px;
+  text-align: center !important;
+  color: white;
+}
+
+/*------------- Services -------------------*/
+
+div.services {
+  display: grid;
+  padding: 0;
+  height: auto;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.services div {
+  text-align: center;
+  width: 90%;
+  background: black;
+  margin: 10px auto 50px auto;
+
+  -webkit-box-shadow: 9px 4px 22px 6px rgba(191, 158, 50, 1);
+  -moz-box-shadow: 9px 4px 22px 6px rgba(191, 158, 50, 1);
+  box-shadow: 9px 4px 22px 6px rgba(191, 158, 50, 1);
+}
+
+
+.services p.service__title {
+  font-size: 3rem;
+  margin: 20px;
+  padding: 0;
+}
+
+.service__title {
+  font-family: "Logoplexi";
+  color: #ffffff;
+  text-shadow: 1px 3px 0 #bf9e32, 1px 13px 5px #aba8a8;
+  color: #ffffff;
+}
+.services-p li {
+  list-style: none;
+  text-align: left;
+}
+
+
+/*------------- Gallery -------------------*/
+
+.gallery {
+  display: grid;
+  width: 100%;
+  height: 820px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 180px auto 0 auto;
+  -webkit-box-shadow: 0px 10px 20px -11px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 10px 20px -11px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 10px 20px -11px rgba(0, 0, 0, 0.9);
+}
+
+.gallery div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  filter: grayscale(83%);
+}
+
+.gallery div.gallery__item__one {
+  background: url("../images/picone.jpg");
+  background-size: 160%;
+  grid-row-end: span 2;
+  grid-column-end: span 2;
+}
+
+.gallery div.gallery__item__two {
+  background: url("../images/pictwo.jpg");
+  background-size: 160%;
+}
+
+.gallery div.gallery__item__three {
+  background: url("../images/picthree.jpg");
+  background-size: 160%;
+}
+
+.gallery div.gallery__item__four {
+  background: url("../images/gallery4.jpeg");
+  background-size: 160%;
+}
+
+.gallery div.gallery__item__five {
+  background: url("../images/gallery5.jpeg");
+  background-size: 160%;
+}
+
+.gallery div.gallery__item__six {
+  background: url("../images/gallery6.jpeg");
+  background-size: 160%;
+}
+
+.gallery__item__one:hover,
+.gallery__item__two:hover,
+.gallery__item__three:hover,
+.gallery__item__four:hover,
+.gallery__item__five:hover,
+.gallery__item__six:hover {
+  background-size: 160%;
+  filter: grayscale(0%);
+}
+.services-p {
+  color: white;
+  text-align: center;
+}

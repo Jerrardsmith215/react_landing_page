@@ -1,0 +1,15 @@
+.card-header {
+  background-size:67% 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 33em;
+  background-image: url("../images/Nu-VeL.png");
+  background-color: black;
+  padding-top: 30px;
+  border-bottom-color: #bf9e32;
+}
+ .card{
+   border-color: black;
+ }
+
+
