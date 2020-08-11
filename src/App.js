@@ -1,21 +1,17 @@
-import React, { Component } from 'react';
-import Header from './components/header/header'
-import Footer from './components/footer/footer'
-import Main from './components/main/main'
+import React, { Component } from "react";
+import Header from "./components/Header/header";
+import Footer from "./components/Footer/footer";
+import Main from "./components/Main/main";
+import Container from "react-bootstrap/Container";
 
-
-
-
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
-      <div className="container">
-          <Header />
-          <Main />
-          <Footer />
-      </div>
+      <Container>
+        <Header />
+        <Main />
+        <Footer />
+      </Container>
     );
   }
 }
-
-export default App;

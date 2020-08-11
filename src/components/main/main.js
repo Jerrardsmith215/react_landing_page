@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import "./main.css";
 import "./form.css";
 import Form from "./form";
-import Panel from "./panel";
 
-class Main extends Component {
-  render() {
+export default function Main(){
+
     return (
       <main>
         <span>
-          <h2>About Us</h2>
+          <h6>"By creatives for creatives"</h6>
         </span>
         <div className="about-div">
           <p>
@@ -83,7 +82,6 @@ class Main extends Component {
           <div className="gallery__item__six" />
         </div>
         <>
-          <Panel />
         </>
         <div>
           <section id="contact">
@@ -94,6 +92,5 @@ class Main extends Component {
       </main>
     );
   }
-}
 
-export default Main;
+

@@ -1,7 +1,6 @@
 footer {
   background:#b6a65d;
   color: #ffffff;
-  display: grid;
    -webkit-box-shadow: 0px 10px 54px -11px #ffffff(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 10px 54px -11px #ffffff(0, 0, 0, 0.75); 
   box-shadow: 0px 10px 54px -11px #ffffff(0, 0, 0, 0.75);

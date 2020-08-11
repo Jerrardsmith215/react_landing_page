@@ -19,6 +19,30 @@ main section {
   margin: 30px auto 150px auto;
 }
 
+.about-div {
+  color: #ffffff;
+  text-shadow: 1px 1px 0 #bf9e32, 1px 5px 15px #aba8a8;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: justify;
+  margin: 30px;
+}
+
+h6{
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 4.2rem;
+  padding-right: 10px;
+  text-transform: uppercase;
+  font-family: "Logoplexi";
+  color: #ffffff;
+  text-shadow: 1px 3px 0 #bf9e32, 1px 13px 5px #aba8a8;
+  color: #ffffff;
+
+}
+
+
+
 main section h2 {
   text-align: center;
   font-size: 4.3rem;
@@ -67,12 +91,13 @@ div.services {
   width: 90%;
   background: black;
   margin: 10px auto 50px auto;
-
+  border-radius: 50px;
+  background: linear-gradient(145deg, #0e0d0d, #0c0b0b);
+  box-shadow: 28px 28px 55px #0b0a0a, -28px -28px 55px #0f0e0e;
   -webkit-box-shadow: 9px 4px 22px 6px rgba(191, 158, 50, 1);
   -moz-box-shadow: 9px 4px 22px 6px rgba(191, 158, 50, 1);
   box-shadow: 9px 4px 22px 6px rgba(191, 158, 50, 1);
 }
-
 
 .services p.service__title {
   font-size: 3rem;
@@ -89,8 +114,8 @@ div.services {
 .services-p li {
   list-style: none;
   text-align: left;
+  text-shadow: 1px 1px 0 #bf9e32, 1px 2px 15px #aba8a8;
 }
-
 
 /*------------- Gallery -------------------*/
 

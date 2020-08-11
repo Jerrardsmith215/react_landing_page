@@ -81,62 +81,6 @@ class Form extends Component {
     console.log(this.state.message);
   };
 
-  // if (
-  //   email.match(
-  //     /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/
-  //   )
-  // ) {
-  //   this.setState({
-  //     email: email
-  //   });
-  // } else {
-  //   this.setState({
-  //     email: ""
-  //   });
-  //   console.log("Incorrect e-mail, must match expression");
-  // }
-
-
-
-
-
-  //A handle change function for all values of state
-  // const validEmailRegex =
-  //   RegExp(/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i);
-
-  // handleChange = e => {
-  //   e.preventDefault();
-  //   const { name, value } = e.target;
-  //   let errors = this.state.errors;
-
-  //   switch (name) {
-  //     case 'name':
-  //       errors.name =
-  //         value.length < 3
-  //           ? 'Full Name must be 3 characters long!'
-  //           : '';
-  //       break;
-  //     case 'email':
-  //       errors.email =
-  //         validEmailRegex.test(value)
-  //           ? ''
-  //           : 'Email is not valid!';
-  //       break;
-  //     case 'password':
-  //       errors.password =
-  //         value.length < 8
-  //           ? 'Password must be 8 characters long!'
-  //           : '';
-  //       break;
-  //     default:
-  //       break;
-  //   }
-
-  //   this.setState({errors, [name]: value}, ()=> {
-  //       console.log(errors)
-  //   })
-  // }
-
   render() {
     const { name, email, message } = this.state;
     return (
